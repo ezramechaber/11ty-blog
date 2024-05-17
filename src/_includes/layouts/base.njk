@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    {# This is the base template for the site–other templates extend this one #}
+    
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Product person. I live in Brooklyn and I do things on the internet." />
+    <link rel="stylesheet" type="text/css" href="/public/style.css" />
+    {% seo "" %}
+  </head>
+  <body>
+  <main>
+    
+    <header class="header">
+      <div class="logo"><a href="https://www.ezramechaber.com">Ezra Mechaber</a></div>
+    </header>
+    
+    {# Page or post content will appear here #}
+  
+    {{ content | safe }}
+
+      <footer class="footer">
+        <div class="links">
+          <a href="https://ezramechaber.com">Home</a>
+          <span class="divider">|</span>
+          <a href="/">Posts</a>
+          <span class="divider">
+        </div>
+        <div class="links">
+          Built with Glitch. <a target="_top" href="https://glitch.com/edit/#!/remix/glitch-hello-eleventy" class="remix">Remix your own.</a>
+        </div>
+      </footer>
+    
+  </main>
+   
+  </body>
+</html>
