@@ -200,6 +200,9 @@ a:hover {
   margin-right: 2rem;
   transform: rotate(16deg);
 }
+.posts {
+  margin-top:30px;
+}
 
 /* Post */
 .post {

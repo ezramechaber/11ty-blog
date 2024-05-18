@@ -8,8 +8,17 @@ templateClass: tmpl-home
 <div class="wrapper home">
   <div class="content">
     {{ content | safe }}
-    
-    {# After the the content defined in index.md, list the blog posts in the collection #}
+    {# After the the content defined in index.md, show the latest blog post#}
+    {% set latestPost = collections.posts[0] %}
+    <article>
+    <h4>Latest post</h4>
+    <h3><a href="{{ latestPost.url }}">{{ latestPost.data.title }}</a></h3>
+    <p>{{ latestPost.templateContent | safe | truncate(500) }}</p>
+    <a href="{{ latestPost.url }}">Read more</a>
+</article>
+    {# then show a list of blog posts in the collection  #}
+    <div class="posts">
+      <h3>Older Posts</h3>
     <ul>
       {%- for post in collections.posts | reverse -%}
         <li{% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.data.page.date | htmlDateString }} — <a href='{{ post.url }}'>{{ post.data.title }}</a> 
@@ -22,6 +31,7 @@ templateClass: tmpl-home
       {%- endfor -%}
       <li><a href="/posts">View all posts</a></li>
     </ul>
+    </div>
   </div>
 </div>
 
