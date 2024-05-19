@@ -9,12 +9,14 @@ templateClass: tmpl-home
   <div class="content">
     {{ content | safe }}
     {# After the the content defined in index.md, show the latest blog post#}
-    {% set latestPost = collections.posts[0] %}
+    {% set latestPost = collections.posts | last %}
     <article>
     <h4>Latest post</h4>
     <h3><a href="{{ latestPost.url }}">{{ latestPost.data.title }}</a></h3>
     <p>{{ latestPost.templateContent | safe | truncate(500) }}</p>
-    <a href="{{ latestPost.url }}">Read more</a>
+    {% if latestPost.templateContent | length > 500 %}
+      <a href="{{ latestPost.url }}">Read more</a>
+    {% endif %}
 </article>
     {# then show a list of blog posts in the collection  #}
     <div class="posts">
