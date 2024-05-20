@@ -9,25 +9,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Product person. I live in Brooklyn and I do things on the internet." />
     <link rel="stylesheet" type="text/css" href="/public/style.css" />
-    <title>Swimming Paul - Lost - Ezra Mechaber</title>
+    <title>This Week&rsquo;s GPT, a SQL Writer - Ezra Mechaber</title>
 
 <meta name="description" content="Product person. I live in Brooklyn and I do things on the internet.">
 <meta name="robots" content="index,follow">
 <meta name="author" content="undefined">
 
-<link rel="canonical" href="https://www.ezramechaber.com/posts/2024-05-17-music/">
+<link rel="canonical" href="https://www.ezramechaber.com/posts/2024-05-20-sql-gpt/">
 
-<meta property="og:title" content="Swimming Paul - Lost - Ezra Mechaber">
+<meta property="og:title" content="This Week&rsquo;s GPT, a SQL Writer - Ezra Mechaber">
 <meta property="og:type" content="article">
 
-<meta property="og:url" content="https://www.ezramechaber.com/posts/2024-05-17-music/">
+<meta property="og:url" content="https://www.ezramechaber.com/posts/2024-05-20-sql-gpt/">
 <meta property="og:description" content="Product person. I live in Brooklyn and I do things on the internet.">
 <meta property="og:image" content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-eleventy-social.png?v=1616712747908">
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:url" content="https://www.ezramechaber.com/posts/2024-05-17-music/">
-<meta name="twitter:title" content="Swimming Paul - Lost - Ezra Mechaber">
+<meta name="twitter:url" content="https://www.ezramechaber.com/posts/2024-05-20-sql-gpt/">
+<meta name="twitter:title" content="This Week&rsquo;s GPT, a SQL Writer - Ezra Mechaber">
 <meta name="twitter:description" content="Product person. I live in Brooklyn and I do things on the internet.">
 <meta name="twitter:image" content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-eleventy-social.png?v=1616712747908">
 
@@ -48,29 +48,41 @@
 <div class="wrapper post">
   <div>
     
-    <h1 class="postTitle">Swimming Paul - Lost</h3>
+    <h1 class="postTitle">This Week’s GPT, a SQL Writer</h3>
 
     <h5 class="postDate">
-      2024-05-17
+      2024-05-20
     </h5>
     
     
     
     
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0cFXO8OMdeLeShQoEp7pxi?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <p>I write a lot of SQL. I don’t mind it.</p>
+<p>But I have three problems:</p>
+<ol>
+<li>I constantly forget things like database-specific nuances—what do I do for RedShift? BigQuery? How do they handle this function differently?</li>
+<li>I have a decent grasp on aggregate functions and transforms but not a great one. I want to compute whether something was stat sig by grabbing the variance? Oof, can’t remember.</li>
+<li>The data schema in a table I’m working with is a mess with lots of objects and properties inside them. I can’t remember where the thing is that I want.</li>
+</ol>
+<p>So I tried to build a quick solution with a GPT assistant. I gave it the following context:</p>
+<ol>
+<li>Our data dictionary for all the kinds of things this table tracks (imagine product analytics, so events, possible values, etc.)</li>
+<li>Our schema for the table I care most about, with all of the different field names and data types.</li>
+</ol>
+<p>And the following prompt:</p>
+<blockquote>
+<p>You are an extremely terse data scientist familiar with [Database X in Flavor Y]. Help me write queries.</p>
+</blockquote>
+<p>So far it’s a hit. And the Assistants playground in Azure lets me save it so I’m not reinventing the wheel and pasting in context every time.</p>
+
     <div class="controls">
     
     
       <p>
         <strong>Previous post</strong>: 
-        <a class="previous" href="/posts/2023-03-22-music/">Moxy The Band - The Feeling of Letting Go</a>
+        <a class="previous" href="/posts/2024-05-17-music/">Swimming Paul - Lost</a>
       </p>
     
-    
-      <p>
-        <strong>Next post</strong>: 
-        <a class="next" href="/posts/2024-05-20-sql-gpt/">This Week’s GPT, a SQL Writer</a>
-      </p>
     
     </div>
   </div>
