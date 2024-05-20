@@ -4,23 +4,21 @@
   "description": "A simple blog, set up with Eleventy.",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "NODE_ENV=production eleventy"
+    "build": "npx @11ty/eleventy",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/"
   },
   "dependencies": {
     "eleventy-plugin-seo": "0.5.2",
     "luxon": "^3.3.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "@11ty/eleventy": "^2.0.1"
   },
   "engines": {
     "node": "14"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/glitch-hello-eleventy"
-  },
-  "glitch": {
-    "projectType": "generated_static"
   },
   "license": "MIT",
   "keywords": [
