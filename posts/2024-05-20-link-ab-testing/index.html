@@ -9,25 +9,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Product person. I live in Brooklyn and I do things on the internet." />
     <link rel="stylesheet" type="text/css" href="/public/style.css" />
-    <title>This Week&rsquo;s GPT, a SQL Writer - Ezra Mechaber</title>
+    <title>Accelerating A/B Tests - Ezra Mechaber</title>
 
 <meta name="description" content="Product person. I live in Brooklyn and I do things on the internet.">
 <meta name="robots" content="index,follow">
 <meta name="author" content="undefined">
 
-<link rel="canonical" href="https://www.ezramechaber.com/posts/2024-05-20-sql-gpt/">
+<link rel="canonical" href="https://www.ezramechaber.com/posts/2024-05-20-link-ab-testing/">
 
-<meta property="og:title" content="This Week&rsquo;s GPT, a SQL Writer - Ezra Mechaber">
+<meta property="og:title" content="Accelerating A/B Tests - Ezra Mechaber">
 <meta property="og:type" content="article">
 
-<meta property="og:url" content="https://www.ezramechaber.com/posts/2024-05-20-sql-gpt/">
+<meta property="og:url" content="https://www.ezramechaber.com/posts/2024-05-20-link-ab-testing/">
 <meta property="og:description" content="Product person. I live in Brooklyn and I do things on the internet.">
 <meta property="og:image" content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-eleventy-social.png?v=1616712747908">
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:url" content="https://www.ezramechaber.com/posts/2024-05-20-sql-gpt/">
-<meta name="twitter:title" content="This Week&rsquo;s GPT, a SQL Writer - Ezra Mechaber">
+<meta name="twitter:url" content="https://www.ezramechaber.com/posts/2024-05-20-link-ab-testing/">
+<meta name="twitter:title" content="Accelerating A/B Tests - Ezra Mechaber">
 <meta name="twitter:description" content="Product person. I live in Brooklyn and I do things on the internet.">
 <meta name="twitter:image" content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-eleventy-social.png?v=1616712747908">
 
@@ -48,7 +48,7 @@
 <div class="wrapper post">
   <div>
     
-    <h1 class="postTitle">This Week’s GPT, a SQL Writer</h3>
+    <h1 class="postTitle">Accelerating A/B Tests</h3>
 
     <h5 class="postDate">
       2024-05-20
@@ -57,32 +57,25 @@
     
     
     
-    <p>I write a lot of SQL. I don’t mind it.</p>
-<p>But I have three problems:</p>
-<ol>
-<li>I constantly forget things like database-specific nuances—what do I do for RedShift? BigQuery? How do they handle this function differently?</li>
-<li>I have a decent grasp on aggregate functions and transforms but not a great one. I want to compute whether something was stat sig by grabbing the variance? Oof, can’t remember.</li>
-<li>The data schema in a table I’m working with is a mess with lots of objects and properties inside them. I can’t remember where the thing is that I want.</li>
-</ol>
-<p>So I tried to build a quick solution with a GPT assistant. I gave it the following context:</p>
-<ol>
-<li>Our data dictionary for all the kinds of things this table tracks (imagine product analytics, so events, possible values, etc.)</li>
-<li>Our schema for the table I care most about, with all of the different field names and data types.</li>
-</ol>
-<p>And the following prompt:</p>
-<blockquote>
-<p>You are an extremely terse data scientist familiar with [Database X in Flavor Y]. Help me write queries.</p>
-</blockquote>
-<p>So far it’s a hit. And the Assistants playground in Azure lets me save it so I’m not reinventing the wheel and pasting in context every time.</p>
+    <p>How do you run more, better, faster A/B tests?</p>
+<p>This isn't for everyone: If you aren't drowning in traffic, if you only have 10 customers, you shouldn't even bother here. That's another conversation.</p>
+<p>But if you've got enough traffic that you're running multiple experiments, multiple PMs running experiments, etc. this is worth a read.</p>
+<p><a href="https://dataanalysis.substack.com/p/methods-to-accelerate-ab-testing?r=103xc&amp;triedRedirect=true">Olga's post in Data Analysis Journal on accelerating A/B testing</a> covers some of the big ways of running experiments faster, including Winsorizing, CUPED, etc.</p>
+<p>A bunch of these were new to me.</p>
 
     <div class="controls">
     
     
       <p>
         <strong>Previous post</strong>: 
-        <a class="previous" href="/posts/2024-05-20-link-ab-testing/">Accelerating A/B Tests</a>
+        <a class="previous" href="/posts/2024-05-17-music/">Swimming Paul - Lost</a>
       </p>
     
+    
+      <p>
+        <strong>Next post</strong>: 
+        <a class="next" href="/posts/2024-05-20-sql-gpt/">This Week’s GPT, a SQL Writer</a>
+      </p>
     
     </div>
   </div>
