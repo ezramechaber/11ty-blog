@@ -5,14 +5,15 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "npx @11ty/eleventy",
-		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/"
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/"
   },
   "dependencies": {
     "eleventy-plugin-seo": "0.5.2",
     "luxon": "^3.3.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0"
   },
   "engines": {
     "node": "14"

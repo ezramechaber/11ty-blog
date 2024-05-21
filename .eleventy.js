@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 const pluginSEO = require("eleventy-plugin-seo");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 /**
 * This is the JavaScript code that determines the config for your Eleventy site
@@ -36,6 +37,9 @@ module.exports = function(eleventyConfig) {
     seo.url = `https://${process.env.PROJECT_DOMAIN}.glitch.me`;
   }
   eleventyConfig.addPlugin(pluginSEO, seo);
+
+  /// Add RSS feed
+  eleventyConfig.addPlugin(pluginRss);
 
   // Filters let you modify the content https://www.11ty.dev/docs/filters/
   eleventyConfig.addFilter("htmlDateString", dateObj => {
