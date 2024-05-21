@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://blog.ezramechaber.com/">
+	<title>Ezra Mechaber</title>
+	<subtitle>Product person. I live in Brooklyn and I do things on the internet.</subtitle>
+	<link href="https://blog.ezramechaber.com/feed.xml" rel="self" />
+	<link href="https://blog.ezramechaber.com/" />
+	<updated
+		>2024-05-20T00:00:00Z</updated
+	>
+	<id>https://blog.ezramechaber.com/</id>
+	<author>
+		<name>Ezra Mechaber</name>
+		<email>contact@ezramechaber.com</email>
+	</author>
+	<entry>
+		<title>This Week’s GPT, a SQL Writer</title>
+		<link href="https://blog.ezramechaber.com/posts/2024-05-20-sql-gpt/" />
+		<updated>2024-05-20T00:00:00Z</updated>
+		<id>https://blog.ezramechaber.com/posts/2024-05-20-sql-gpt/</id>
+		<content xml:lang="en" type="html"
+			>&lt;p&gt;I write a lot of SQL. I don’t mind it.&lt;/p&gt;
+&lt;p&gt;But I have three problems:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I constantly forget things like database-specific nuances—what do I do for RedShift? BigQuery? How do they handle this function differently?&lt;/li&gt;
+&lt;li&gt;I have a decent grasp on aggregate functions and transforms but not a great one. I want to compute whether something was stat sig by grabbing the variance? Oof, can’t remember.&lt;/li&gt;
+&lt;li&gt;The data schema in a table I’m working with is a mess with lots of objects and properties inside them. I can’t remember where the thing is that I want.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So I tried to build a quick solution with a GPT assistant. I gave it the following context:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Our data dictionary for all the kinds of things this table tracks (imagine product analytics, so events, possible values, etc.)&lt;/li&gt;
+&lt;li&gt;Our schema for the table I care most about, with all of the different field names and data types.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And the following prompt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You are an extremely terse data scientist familiar with [Database X in Flavor Y]. Help me write queries.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So far it’s a hit. And the Assistants playground in Azure lets me save it so I’m not reinventing the wheel and pasting in context every time.&lt;/p&gt;
+</content
+		>
+	</entry>
+	<entry>
+		<title>Accelerating A/B Tests</title>
+		<link href="https://blog.ezramechaber.com/posts/2024-05-20-link-ab-testing/" />
+		<updated>2024-05-20T00:00:00Z</updated>
+		<id>https://blog.ezramechaber.com/posts/2024-05-20-link-ab-testing/</id>
+		<content xml:lang="en" type="html"
+			>&lt;p&gt;How do you run more, better, faster A/B tests?&lt;/p&gt;
+&lt;p&gt;This isn&#39;t for everyone: If you aren&#39;t drowning in traffic, if you only have 10 customers, you shouldn&#39;t even bother here. That&#39;s another conversation.&lt;/p&gt;
+&lt;p&gt;But if you&#39;ve got enough traffic that you&#39;re running multiple experiments, multiple PMs running experiments, etc. this is worth a read.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dataanalysis.substack.com/p/methods-to-accelerate-ab-testing?r=103xc&amp;amp;triedRedirect=true&quot;&gt;Olga&#39;s post in Data Analysis Journal on accelerating A/B testing&lt;/a&gt; covers some of the big ways of running experiments faster, including Winsorizing, CUPED, etc.&lt;/p&gt;
+&lt;p&gt;A bunch of these were new to me.&lt;/p&gt;
+</content
+		>
+	</entry>
+	<entry>
+		<title>Swimming Paul - Lost</title>
+		<link href="https://blog.ezramechaber.com/posts/2024-05-17-music/" />
+		<updated>2024-05-17T00:00:00Z</updated>
+		<id>https://blog.ezramechaber.com/posts/2024-05-17-music/</id>
+		<content xml:lang="en" type="html"
+			>&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/track/0cFXO8OMdeLeShQoEp7pxi?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameBorder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</content
+		>
+	</entry>
+	<entry>
+		<title>Moxy The Band - The Feeling of Letting Go</title>
+		<link href="https://blog.ezramechaber.com/posts/2023-03-22-music/" />
+		<updated>2023-03-21T00:00:00Z</updated>
+		<id>https://blog.ezramechaber.com/posts/2023-03-22-music/</id>
+		<content xml:lang="en" type="html"
+			>&lt;p&gt;The 80&#39;s synths are so strong, the bassline slaps, the chorus is large.&lt;/p&gt;
+&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/track/6fzeWVlHJoHAIFYTLgy7l6?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameBorder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</content
+		>
+	</entry>
+	<entry>
+		<title>boygenius - Not Strong Enough</title>
+		<link href="https://blog.ezramechaber.com/posts/2023-03-15/" />
+		<updated>2023-03-15T00:00:00Z</updated>
+		<id>https://blog.ezramechaber.com/posts/2023-03-15/</id>
+		<content xml:lang="en" type="html"
+			>&lt;p&gt;A Phoebe Bridgers supergroup/side project. Wowza.&lt;/p&gt;
+&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/track/72GNW1xKoi5BAhMYAW6e7e?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameBorder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</content
+		>
+	</entry>
+	<entry>
+		<title>Gang of Youths - angel in realtime.</title>
+		<link href="https://blog.ezramechaber.com/posts/2023-02-28-music/" />
+		<updated>2023-02-28T00:00:00Z</updated>
+		<id>https://blog.ezramechaber.com/posts/2023-02-28-music/</id>
+		<content xml:lang="en" type="html"
+			>&lt;p&gt;Soaring. &amp;quot;goal of the century&amp;quot; is like Royksopp gone rock.&lt;/p&gt;
+&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/album/4xrHCOnujQW9DDLmntffLP?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;380&quot; frameBorder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</content
+		>
+	</entry>
+	<entry>
+		<title>Perks and benefits</title>
+		<link href="https://blog.ezramechaber.com/posts/2023-02-27-perks/" />
+		<updated>2023-02-27T00:00:00Z</updated>
+		<id>https://blog.ezramechaber.com/posts/2023-02-27-perks/</id>
+		<content xml:lang="en" type="html"
+			>&lt;p&gt;I read Tony Faddell&#39;s &amp;quot;Build&amp;quot; last year, and I thought a lot of it would stick with me.&lt;/p&gt;
+&lt;p&gt;Only one thing has truly stuck: Perks and benefits, and why companies should provide benefits but beware of &amp;quot;perks&amp;quot; like the plague.&lt;/p&gt;
+&lt;p&gt;In Faddell&#39;s telling, perks—like free lunch or dog baths—are just things people get used to. And once they&#39;re used to it, you can&#39;t get rid of it, but they also don&#39;t view it as special. It&#39;s become a &amp;quot;right.&amp;quot;&lt;/p&gt;
+&lt;p&gt;That rings mostly true to me? But now that I&#39;m at a different company, it also has me thinking about what I value in perks and benefits.&lt;/p&gt;
+&lt;p&gt;The perk I keep coming back to is an &amp;quot;unlimited book budget.&amp;quot; All the L&amp;amp;D you can read. I reliably spent a couple hundred dollars per year on books like Build, and got to bring what I learned back to my team.&lt;/p&gt;
+&lt;p&gt;It was a good one!&lt;/p&gt;
+</content
+		>
+	</entry>
+</feed>
