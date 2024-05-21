@@ -5,13 +5,22 @@
 	<link href="https://blog.ezramechaber.com/feed.xml" rel="self" />
 	<link href="https://blog.ezramechaber.com/" />
 	<updated
-		>2024-05-20T00:00:00Z</updated
+		>2024-05-21T00:00:00Z</updated
 	>
 	<id>https://blog.ezramechaber.com/</id>
 	<author>
 		<name>Ezra Mechaber</name>
 		<email>contact@ezramechaber.com</email>
 	</author>
+	<entry>
+		<title>Cautious Clay - Another Half</title>
+		<link href="https://blog.ezramechaber.com/posts/2024-05-21-music/" />
+		<updated>2024-05-21T00:00:00Z</updated>
+		<id>https://blog.ezramechaber.com/posts/2024-05-21-music/</id>
+		<content xml:lang="en" type="html"
+			>&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/track/0sAPtWTy125jIkSDOT9YdO?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameBorder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</content
+		>
+	</entry>
 	<entry>
 		<title>This Week’s GPT, a SQL Writer</title>
 		<link href="https://blog.ezramechaber.com/posts/2024-05-20-sql-gpt/" />
