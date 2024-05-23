@@ -5,13 +5,29 @@
 	<link href="https://blog.ezramechaber.com/feed.xml" rel="self" />
 	<link href="https://blog.ezramechaber.com/" />
 	<updated
-		>2024-05-21T00:00:00Z</updated
+		>2024-05-23T00:00:00Z</updated
 	>
 	<id>https://blog.ezramechaber.com/</id>
 	<author>
 		<name>Ezra Mechaber</name>
 		<email>contact@ezramechaber.com</email>
 	</author>
+	<entry>
+		<title>No Wrong Doors</title>
+		<link href="https://blog.ezramechaber.com/posts/2024-05-23-no-wrong-doors/" />
+		<updated>2024-05-23T00:00:00Z</updated>
+		<id>https://blog.ezramechaber.com/posts/2024-05-23-no-wrong-doors/</id>
+		<content xml:lang="en" type="html"
+			>&lt;p&gt;From Will Larson, &lt;a href=&quot;https://lethain.com/no-wrong-doors/&quot;&gt;a nice thought experiment&lt;/a&gt; on how to make work bureacracy less brutal:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Some governmental agencies have started to adopt No Wrong Door policies, which aim to provide help–often health or mental health services–to individuals even if they show up to the wrong agency to request help. The core insight is that the employees at those agencies are far better equipped to navigate their own bureaucracies than an individual who knows nothing about the bureaucracy’s internal function.&lt;/p&gt;
+&lt;p&gt;For the most part, technology organizations are not complex bureaucracies, but sometimes they do seem to operate that way.&lt;/p&gt;
+&lt;p&gt;...
+Something I’ve been thinking about recently is how engineering organizations can adopt a variant of the No Wrong Doors policy to directly connect folks with problems with the right team and information. Then the first contact point becomes a support system for navigating the bureaucracy successfully.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content
+		>
+	</entry>
 	<entry>
 		<title>Cautious Clay - Another Half</title>
 		<link href="https://blog.ezramechaber.com/posts/2024-05-21-music/" />
